@@ -1,14 +1,14 @@
 $("#animate-btn").click(function (e) {
     e.preventDefault();
     $('html, body').animate({
-        scrollTop: 943,
+        scrollTop: $("#about-me").offset().top        
     }, 1000);
 });
 
 $("#nav-about").click(function (e) {
     e.preventDefault();
     $('html, body').animate({
-        scrollTop: 943,
+        scrollTop: $("#about-me").offset().top
     }, 1000);
 });
 
