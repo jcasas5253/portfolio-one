@@ -29,8 +29,9 @@
 
 #contact {
     background-color: black;
-    padding-top: 100px;
     padding-bottom: 200px;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .contact {
@@ -67,7 +68,6 @@ h1 {
 }
 
 #about-me {
-    height: auto;
     padding-left: 0;
     padding-right: 0;
     padding-bottom: 200px;
@@ -84,6 +84,7 @@ h1 {
     border-bottom-width: thick;
     border-bottom-color: #4aaaa5;
     z-index:999;
+    margin-bottom: 140px;
 }
 
 .nav-link {
@@ -119,7 +120,7 @@ h1 {
 #portfolio {
     background-color: #f5f5f5;
     height: 984px;
-    padding-top: 140px;
+    padding:0;
 }
 
 .fas, .far {
