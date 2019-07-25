@@ -60,6 +60,7 @@ h1 {
     border-bottom-style: solid;
     border-bottom-width: thick;
     border-bottom-color: #4aaaa5;
+    z-index:999;
 }
 
 .nav-link {
