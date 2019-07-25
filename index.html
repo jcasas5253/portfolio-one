@@ -9,8 +9,9 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Portfolio</title>
 </head>
@@ -22,14 +23,14 @@
         <p></p>
         <h1>I'm a full-stack web developer.</h1>
         <p></p>
-        <button onclick="smoothScroll();" type="button" class="btn btn-outline-dark btn-lg">View My Work</button>
+        <button type="button" class="btn btn-outline-dark btn-lg" id="animate-btn">View My Work</button>
     </div>
 
     <div class="container-fluid" id="about-me">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <a class="navbar-brand" href="#"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
@@ -54,22 +55,48 @@
             <h1 class="about" style="color:black;">ABOUT ME</h1>
         </div>
 
+        <div class="row" style="margin-top:50px;">
+            <div style="text-align:center;" class="col-sm-6 col-md-6 col-lg-3">
+                <i class="fas fa-mobile-alt fa-7x"></i>
+                <h2>Responsive</h2>
+                <p style="padding-left:20px;">My programs / sites are always built with a mobile first mindset. Will work on any device.</p>
+            </div>
+            <div style="text-align:center;" class="col-sm-6 col-md-6 col-lg-3">
+                <i class="fas fa-tools fa-7x"></i>
+                <h2>Full Stack</h2>
+                <p>Able to build a Web pressence from the ground up. Front and back end development.</p>
+            </div>
+            <div style="text-align:center;" class="col-sm-6 col-md-6 col-lg-3">
+                <i class="fas fa-bug fa-7x"></i>
+                <h2>Problem Solver</h2>
+                <p>Strong problem solving and debugging skills. Able to identify the problem and come up with the best solution.</p>
+            </div>
+            <div style="text-align:center;" class="col-sm-6 col-md-6 col-lg-3">
+                <i class="far fa-heart fa-7x"></i>
+                <h2>Passion</h2>
+                <p>I have a passion for building programs / sites. It is my job, hobby, and what I love to do.</p>
+            </div>
+        </div>
+
         <div class="row">
             <div style="text-align:center;margin-top: 100px;" class="col-sm-12 col-md-6 col-lg-6">
                 <h2 style="color:#616161;">Abilities</h2>
-                <p style="color:#616161;">Full stack software engineer able to build a Web presence from the ground up,
+                <p style="color:#616161;">
+                    Full stack software engineer able to build a Web presence from the ground up,
                 </p>
                 <p>from concept, navigation, layout and programming to UX and SEO. Skilled at</p>
                 <p> writing well-designed, testable and efficient code using current best practices.</p>
             </div>
             <div style="text-align:center;margin-top: 100px;" class="col-sm-12 col-md-6 col-lg-6">
                 <h2 style="color:#616161;">Technical Skills</h2>
-                <p style="color:#616161;">React.js,HTML5, CSS3, JavaScript, jQuery, Bootstrap, SEO, MySQL, MongoDB,
-                    Node.js,</p>
+                <p style="color:#616161;">
+                    React.js,HTML5, CSS3, JavaScript, jQuery, Bootstrap, SEO, MySQL, MongoDB,
+                    Node.js,
+                </p>
                 <p>Express.js, APIs, JSON, AJAX, Real Time Cloud Database via firebase,Heroku, Git, GitHub,</p>
                 <p>GitLab, ORM (Sequelize), MVC, XML, XSLT and User Authentication.</p>
             </div>
-        </div>       
+        </div>
     </div>
 
     <div class="container-fluid" id="portfolio"></div>
@@ -77,19 +104,15 @@
 
 
     <!-- Optional JavaScript -->
-
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>
