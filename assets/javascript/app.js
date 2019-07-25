@@ -5,14 +5,15 @@ $("#animate-btn").click(function (e) {
     }, 1000);
 });
 
-$("#nav-about").click(function (e) {
+var scrollBottom = $(window).scrollTop() + $(window).height();
+$(".about-nav").click(function (e) {   
     e.preventDefault();
     $('html, body').animate({
         scrollTop: $("#about-me").offset().top
     }, 1000);
 });
 
-$("#nav-home").click(function (e) {
+$(".home-nav").click(function (e) {
     e.preventDefault();
     $('html, body').animate({
         scrollTop: $(".main-container").offset().top
@@ -27,25 +28,25 @@ $(".up-btn").click(function (e) {
 });
 
 
-$("#nav-portfolio").click(function (e) {
+$(".portfolio-nav").click(function (e) {
     e.preventDefault();
     $('html, body').animate({
         scrollTop: $("#portfolio").offset().top
     }, 1000);
 });
 
-$("#nav-contact").click(function (e) {
+$(".contact-nav").click(function (e) {
     e.preventDefault();
     $('html, body').animate({
         scrollTop: $("#contact").offset().top
     }, 1000);
 });
 
-var stickyTop = $('.navbar').offset().top;
-$(window).on( 'scroll', function(){
-    if ($(window).scrollTop() >= stickyTop) {
-        $('.navbar').css({position: "fixed", top: "0px"});
-    } else {
-        $('.navbar').css({position: "relative", top: "0px"});
-    }
-});
+//var stickyTop = $('.navbar').offset().top;
+//$(window).on( 'scroll', function(){
+//    if ($(window).scrollTop() >= stickyTop) {
+//        $('.navbar').css({position: "fixed", top: "0px", right:"0px"});
+//    } else {
+//        $('.navbar').css({position: "relative", top: "0px"});
+//    }
+//});
