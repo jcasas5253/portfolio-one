@@ -1,11 +1,10 @@
-function smoothScroll() {
-    window.scroll({
-        top: 740,
-        left: 0,
-        behavior: 'smooth'
-    });
+$("#animate-btn").click(function () {
+    $('html, body').animate({
+        scrollTop: $("#about-me").offset().top        
+    }, 2000);
+});
 
-}
+
 
 var stickyTop = $('.navbar').offset().top;
 $(window).on( 'scroll', function(){
