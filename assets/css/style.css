@@ -44,9 +44,10 @@ h1 {
 }
 
 #about-me {
-    height: 581px;
+    height: auto;
     padding-left: 0;
     padding-right: 0;
+    padding-bottom: 200px;
 }
 
 .sticky {
@@ -93,5 +94,13 @@ h1 {
 
 #portfolio {
     background-color: #f5f5f5;
-    height: 200px;
+    height: 500px;
+}
+@media screen and (max-width: 500px) {
+    .main-container {
+        padding-top: 100px;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
 }
