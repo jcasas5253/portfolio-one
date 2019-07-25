@@ -24,11 +24,34 @@
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     text-align: center;
-    padding-top: 160px;
+    padding-top: 270px;
+}
+
+#contact {
+    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.contact {
+    color:#fff;
+}
+
+.contact-me {
+    border-style: solid;
+    border-width: thick;
+    border-color: #fff;
+    border-radius: 10px;
+    width:50%;
+    margin-left: 25%;
 }
 
 h1 {
     color: #fff;
+}
+
+.title {
+    font-size: 2.5em;
 }
 
  .name {
@@ -95,17 +118,37 @@ h1 {
 
 #portfolio {
     background-color: #f5f5f5;
-    height: 500px;
+    height: 984px;
+    padding-top: 140px;
 }
 
 .fas, .far {
     margin-bottom: 15px;
 }
 
-@media screen and (max-width: 500px) {
+.up-btn {
+    background-color: #4aaaa5;
+    width: 60px;
+    border-radius: 100px;
+    margin-bottom: 3.5rem !important;
+}
+
+.up-btn:hover {
+    border-style: solid;
+    border-width: medium;
+    border-color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+    .contact-me {
+        margin-left: 0;
+        width: 100%;
+    }
+}
     .main-container {
         padding-top: 100px;
     }
+
     h1 {
         font-size: 1.5em;
     }
