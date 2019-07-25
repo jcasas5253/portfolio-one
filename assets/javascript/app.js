@@ -4,6 +4,12 @@ $("#animate-btn").click(function () {
     }, 2000);
 });
 
+$("#nav-home").click(function () {
+    $('html, body').animate({
+        scrollTop: $(".main-container").offset().top
+    }, 2000);
+});
+
 
 
 var stickyTop = $('.navbar').offset().top;
