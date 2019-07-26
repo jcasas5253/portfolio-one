@@ -24,35 +24,37 @@
         <h1 class="title">I'm a full-stack web developer.</h1>
         <p></p>
         <button type="button" class="btn btn-outline-dark btn-lg" id="animate-btn" onlcick="test();">View My Work</button>
+        <div class="invisible"></div>
     </div>
 
-    <div class="container-fluid" id="about-me">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav1">
-            <a class="navbar-brand" href="#"></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <nav style="display:none;" class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav1">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a style="border-top:none;" class="nav-link home-nav" id="nav-home" href="#">Home <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link about-nav" id="nav-about" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link portfolio-nav" id="nav-portfolio" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a style="border-bottom:none;" class="nav-link contact-nav" id="nav-contact" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a style="border-top:none;" class="nav-link home-nav" id="nav-home" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link about-nav" id="nav-about" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link portfolio-nav" id="nav-portfolio" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a style="border-bottom:none;" class="nav-link contact-nav" id="nav-contact" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid" id="about-me">
         <div class="container-fluid" style="text-align:center;">
-            <h1 class="about" style="color:black;margin-bottom:0px;margin-top:140px;">ABOUT ME</h1>
+            <h1 class="about" style="color:black;margin-bottom:0px;">ABOUT ME</h1>
             <div>————————————</div>
         </div>
 
@@ -119,13 +121,13 @@
                 <i style="color:#fff;" class="fab fa-github fa-3x"></i>
                 <p style="color:#fff;">https://github.com/jcasas5253</p>
             </div>
+            <label class="up-btn" id="btn-up">
+                <i style="color:#fff;margin-top:15px;" class="fas fa-arrow-up fa-3x"></i>
+            </label>
         </div>
     </div>
 
-    <div style="background-color:#202020;height:250px; text-align:center;" class="container-fluid">
-        <label class="up-btn" id="btn-up">
-            <i style="color:#fff;margin-top:15px;" class="fas fa-arrow-up fa-3x"></i>
-        </label>
+    <div style="background-color:#202020;height:100px; text-align:center;padding-top:40px" class="container-fluid">
         <p style="color:#fff;">JACOB CASAS <span style="color:#4aaaa5;">@2019</span></p>
     </div>
 
