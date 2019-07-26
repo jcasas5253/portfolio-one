@@ -18,6 +18,9 @@
 
 <body>
     <div class="main-container">
+        <video autoplay muted loop id="myVideo">
+            <source src="assets/video/Smoke_Dark_11_Videvo.mov" type="video/mp4" />
+        </video>
         <div id="songpro" class="inlineblo"></div>
         <h1 class="title">Hello, My name is <span class="name">Jacob Casas.</span></h1>
         <p></p>
@@ -107,33 +110,36 @@
             <h1 class="about" style="color:black;margin-bottom:0px;">PORTFOLIO</h1>
             <div>—————————————</div>
             <div class="row" style="margin-top:50px;">
-                <div style="display:flex;justify-content:center;" class="col-sm-12 col-md-12 col-lg-4">
+                <div style="display:flex;justify-content:center;" class="col-sm-12 col-md-12 col-lg-4" id="port-card">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/images/Screenshot (47).png" class="card-img-top" alt="rentera">
                         <div class="card-body">
                             <h5 style="color:#fff;font-weight:bold;" class="card-title">Rentera</h5>
-                            <p style="color:#fff;" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://protected-sierra-58552.herokuapp.com/welcome" target="_blank" class="btn btn-outline-dark btn-lg">View Now</a>
+                            <p style="color:#fff;" class="card-text">Property management site / program. Pay your rent, submit a service ticket, manage your properties, or view your leases as a tenant.
+                            Create a bill, view service tickets, view your properties, view all tenants leases as a manager. </p>
+                            <a href="https://protected-sierra-58552.herokuapp.com/welcome" target="_blank" class="btn btn-outline-dark btn-lg card-btn" style="margin-top:48px;">View Now</a>
                         </div>
                     </div>
                 </div>
-                <div style="display:flex;justify-content:center;" class="col-sm-12 col-md-12 col-lg-4">
+                <div style="display:flex;justify-content:center;" class="col-sm-12 col-md-12 col-lg-4" id="port-card">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/images/Screenshot (48).png" class="card-img-top" alt="Full Circle">
                         <div class="card-body">
                             <h5 style="color:#fff;font-weight:bold;" class="card-title">Full Circle</h5>
-                            <p style="color:#fff;" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://aqueous-thicket-90325.herokuapp.com/" target="_blank" class="btn btn-outline-dark btn-lg">View Now</a>
+                            <p style="color:#fff;" class="card-text">Go to any recycling center to recycle your bottles and cans. You will receive a receipt with a voucher.
+                            Enter your voucher number and the total dollar amount you are owed. on the "Transactions" page. Once the site verifies your info, a payment will be sent via Paypal.</p>
+                            <a href="https://aqueous-thicket-90325.herokuapp.com/" target="_blank" class="btn btn-outline-dark btn-lg card-btn">View Now</a>
                         </div>
                     </div>
                 </div>
-                <div style="display:flex;justify-content:center;" class="col-sm-12 col-md-12 col-lg-4">
+                <div style="display:flex;justify-content:center;" class="col-sm-12 col-md-12 col-lg-4" id="port-card">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/images/Screenshot (49).png" class="card-img-top" alt="Hiking Playlist Generator">
                         <div class="card-body">
                             <h5 style="color:#fff;font-weight:bold;" class="card-title">Hiking Playlist Generator</h5>
-                            <p style="color:#fff;" class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="https://aka-joe.github.io/Project1/" target="_blank" class="btn btn-outline-dark btn-lg">View Now</a>
+                            <p style="color:#fff;" class="card-text">Simply enter your hiking destination to find local hikes in the area with info about location, difficulty, rating.etc.
+                            The generate playlist button will create a playlist for the user based on the difficulty of the hike.</p>
+                            <a href="https://aka-joe.github.io/Project1/" target="_blank" class="btn btn-outline-dark btn-lg card-btn" style="margin-top:48px;">View Now</a>
                         </div>
                     </div>
                 </div>
@@ -144,24 +150,25 @@
     <div class="container-fluid" id="contact">
         <div class="container-fluid" style="text-align:center;">
             <h1 class="contact" style="margin-bottom:0px;">CONTACT</h1>
-            <div style="color:#fff;margin-bottom:15px;">——————————</div>
+            <div style="color:black;margin-bottom:15px;">——————————</div>
             <div class="contact-me">
-                <i style="color:#fff;margin-bottom:0px;margin-top:1rem;" class="far fa-envelope fa-3x"></i>
-                <p style="color:#fff;">jacob.casas2013@gmail.com</p>
-                <i style="color:#fff;" class="fab fa-linkedin-in fa-3x"></i>
-                <p style="color:#fff;">https://www.linkedin.com/in/jacob-casas/</p>
-                <i style="color:#fff;" class="fab fa-github fa-3x"></i>
-                <p style="color:#fff;">https://github.com/jcasas5253</p>
+                <i style="color:black;margin-bottom:0px;margin-top:1rem;" class="far fa-envelope fa-3x"></i>
+                <p style="color:black;">jacob.casas2013@gmail.com</p>
+                <i style="color:black;" class="fab fa-linkedin-in fa-3x"></i>
+                <p style="color:black;">https://www.linkedin.com/in/jacob-casas/</p>
+                <i style="color:black;" class="fab fa-github fa-3x"></i>
+                <p style="color:black;">https://github.com/jcasas5253</p>
             </div>
             <label class="up-btn" id="btn-up">
                 <i style="color:#fff;margin-top:15px;" class="fas fa-arrow-up fa-3x"></i>
             </label>
         </div>
+        <div style="background-color:#202020;height:100px; text-align:center;padding-top:40px;margin-top:135px;" class="container-fluid">
+            <p style="color:#fff;">JACOB CASAS <span style="color:#4aaaa5;">@2019</span></p>
+        </div>
     </div>
 
-    <div style="background-color:#202020;height:100px; text-align:center;padding-top:40px" class="container-fluid">
-        <p style="color:#fff;">JACOB CASAS <span style="color:#4aaaa5;">@2019</span></p>
-    </div>
+    
 
 
 
