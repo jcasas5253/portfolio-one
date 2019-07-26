@@ -1,49 +1,58 @@
-@keyframes bgcolor {
+/*@keyframes bgcolor {
 0% {
-  background-color: #45a3e5
+  background-color: navy
 }
 30% {
-    background-color: #66bf39
+    background-color: darkgreen
 }
 60% {
-    background-color: #eb670f
+    background-color: #CC6500
 }
 90% {
-     background-color: #f35
+    background-color: maroon
 }
-100% {
-    background-color: #864cbf
-}
+    100% {
+        background-color: navy
+    }
 
-}
+}*/
 
 .main-container {
     min-height: 100vh;
-    -webkit-animation: bgcolor 30s infinite;
+    /*-webkit-animation: bgcolor 30s infinite;
     animation: bgcolor 10s infinite;
     -webkit-animation-direction: alternate;
-    animation-direction: alternate;
+    animation-direction: alternate;*/
     text-align: center;
     padding-top: 100px;
 }
 
+#myVideo {
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
 #contact {
     min-height: 100vh;
-    background-color: black;
-    padding-bottom: 100px;
+    background-color: #E8E8E8;
     padding-right: 0;
     padding-left: 0;
     padding-top: 140px;
 }
 
 .contact {
-    color:#fff;
+    color:black;
 }
 
 .contact-me {
     border-style: solid;
     border-width: thick;
-    border-color: #fff;
+    border-color: black;
     border-radius: 10px;
     width:50%;
     margin-left: 25%;
@@ -135,7 +144,7 @@ h1 {
 }
 
 .up-btn {
-    background-color: #4aaaa5;
+    background-color: black;
     width: 60px;
     border-radius: 100px;
     margin-bottom: 3.5rem !important;
@@ -143,9 +152,8 @@ h1 {
 }
 
 .up-btn:hover {
-    border-style: solid;
-    border-width: medium;
-    border-color: #fff;
+    background-color: #4aaaa5;
+    cursor: pointer;
 }
 
 .invisible {
@@ -165,10 +173,16 @@ h1 {
     background-color: #4aaaa5;
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 991px) {
     .nav-link {
 border-top: 1px solid #4aaaa5;
     border-bottom: 1px solid #4aaaa5;
+    }
+    .card {
+        margin-bottom: 15px;
+    }
+    .card-btn {
+        margin-top: 0 !important;
     }
 }
 
@@ -195,6 +209,17 @@ border-top: 1px solid #4aaaa5;
 @media screen and (max-width: 590px) {
     .title {
         font-size: 1.5em;
+    }
+    .card {
+        width: 100% !important;
+    }
+    #portfolio {
+        padding-right: 0;
+        padding-left: 0;
+    }
+    #port-card {
+        padding-right: 0;
+        padding-left: 0;
     }
 }
 
