@@ -24,14 +24,15 @@
     -webkit-animation-direction: alternate;
     animation-direction: alternate;
     text-align: center;
-    padding-top: 270px;
+    padding-top: 100px;
 }
 
 #contact {
     background-color: black;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     padding-right: 0;
     padding-left: 0;
+    padding-top: 140px;
 }
 
 .contact {
@@ -114,13 +115,12 @@ h1 {
 
 .about {
     text-align: center;
-    margin-top: 140px;
 }
 
 #portfolio {
     background-color: #f5f5f5;
     height: 984px;
-    padding:0;
+    padding-top: 140px;
 }
 
 .fas, .far {
@@ -145,12 +145,29 @@ h1 {
         margin-left: 0;
         width: 100%;
     }
-}
     .main-container {
         padding-top: 100px;
     }
 
     h1 {
         font-size: 1.5em;
+    }
+    .pp1 {
+        padding-left: 0;
+    }
+    .pp2 {
+        margin-right: 0;
+    }
+}
+
+@media screen and (max-width: 590px) {
+    .title {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .title {
+        font-size: 1em;
     }
 }

@@ -42,11 +42,11 @@ $(".contact-nav").click(function (e) {
     }, 1000);
 });
 
-//var stickyTop = $('.navbar').offset().top;
-//$(window).on( 'scroll', function(){
-//    if ($(window).scrollTop() >= stickyTop) {
-//        $('.navbar').css({position: "fixed", top: "0px", right:"0px"});
-//    } else {
-//        $('.navbar').css({position: "relative", top: "0px"});
-//    }
-//});
+var stickyTop = $('.navbar').offset().top;
+$(window).on( 'scroll', function(){
+   if ($(window).scrollTop() >= stickyTop) {
+       $('.navbar').css({position: "fixed", top: "0px", right:"0px"});
+   } else {
+       $('.navbar').css({position: "relative", top: "0px"});
+   }
+});
