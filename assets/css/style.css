@@ -78,13 +78,17 @@ h1 {
     box-shadow: none !important;
 }
 
-#about-me {
-    min-height: 100vh;
-    padding-left: 0;
-    padding-right: 0;
-    padding-bottom: 200px;
-    padding-top: 140px;
+.btn-outline-dark:hover {
+    background-color: #4aaaa5;
 }
+
+    #about-me {
+        min-height: 100vh;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 200px;
+        padding-top: 140px;
+    }
 
 .sticky {
     position: fixed;
