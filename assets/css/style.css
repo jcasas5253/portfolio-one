@@ -92,6 +92,7 @@ h1 {
     margin-left: 20px;
     font-size: 18px;
     color: #fff !important;
+    text-align: center;;
 }
 
 .nav-link:hover {
@@ -138,6 +139,13 @@ h1 {
     border-style: solid;
     border-width: medium;
     border-color: #fff;
+}
+
+@media screen and (max-width: 992px) {
+    .nav-link {
+border-top: 1px solid #4aaaa5;
+    border-bottom: 1px solid #4aaaa5;
+    }
 }
 
 @media screen and (max-width: 750px) {
