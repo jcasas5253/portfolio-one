@@ -30,7 +30,7 @@ html,body {
     -webkit-animation-direction: alternate;
     animation-direction: alternate;*/
     text-align: center;
-    padding-top: 300px;
+    padding-top: 130px;
 }
 
 #myVideo {
@@ -130,7 +130,7 @@ h1 {
     border-radius: 50%;
     border: 1px solid #eaeaea;
     position: relative;
-    background: url("https://i.pinimg.com/originals/3d/ff/40/3dff40ec57ed0ff20a449f51647b0f21.jpg") no-repeat 0 0;
+    background: url("https://media.licdn.com/dms/image/C5603AQFC7--hWXZmDw/profile-displayphoto-shrink_200_200/0?e=1569456000&v=beta&t=Swhygd_UTbNIShSd-DMbndRudUWUZygxpdvNHh1McHc") no-repeat 0 0;
     background-size: 190px 190px;
     box-shadow: inset 0px 0px 10px 2px #5f5f5f;
 }
@@ -216,7 +216,7 @@ border-top: 1px solid #4aaaa5;
         margin-right: 0;
     }
     .main-container {
-        padding-top: 250px;
+        padding-top: 150px;
     }
 }
 
