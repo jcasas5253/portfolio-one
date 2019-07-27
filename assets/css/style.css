@@ -189,6 +189,11 @@ h1 {
     margin-bottom: 15px;
 }
 
+.fa-linkedin-in:hover, .fa-envelope:hover,
+.fa-github:hover {
+    color: #4aaaa5 !important;
+}
+
 @media screen and (max-width: 991px) {
     .nav-link {
 border-top: 1px solid #4aaaa5;
