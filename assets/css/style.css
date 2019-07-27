@@ -17,6 +17,10 @@
 
 }*/
 
+body {
+    overflow-x: hidden;
+}
+
 .main-container {
     min-height: 100vh;
     /*-webkit-animation: bgcolor 30s infinite;
