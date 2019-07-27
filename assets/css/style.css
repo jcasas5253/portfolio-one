@@ -78,14 +78,16 @@ h1 {
 }
 
 .btn-outline-dark {
+    background-color: #4aaaa5 !important;
     color: #fff !important;
-    border-color: #fff !important;
+    border-color: black !important;
     outline: none !important;
     box-shadow: none !important;
 }
 
 .btn-outline-dark:hover {
-    background-color: #4aaaa5;
+    background-color: #202020 !important;
+    color: #fff !important;
 }
 
     #about-me {
