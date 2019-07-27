@@ -116,6 +116,10 @@ h1 {
     right: 0px;
 }
 
+.navbar-toggler:focus {
+    outline: none;
+}
+
 .nav-link {
     margin-left: 20px;
     font-size: 18px;
@@ -205,7 +209,7 @@ a {
 
 @media screen and (max-width: 991px) {
     .nav-link {
-border-top: 1px solid #4aaaa5;
+    border-top: 1px solid #4aaaa5;
     border-bottom: 1px solid #4aaaa5;
     }    
     .card-btn {
