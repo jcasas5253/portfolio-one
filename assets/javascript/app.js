@@ -1,9 +1,19 @@
+$( document ).ready(function() {
+    $('#nav-home').css("border-bottom", "2px solid #4aaaa5");
+
+
 $("#animate-btn").click(function (e) {
     e.preventDefault();
     $('html, body').animate({
         scrollTop: $("#about-me").offset().top        
     }, 1000);
 });
+
+function navbar() {
+    setTimeout(function(){
+        $('.navbar').css("dispaly", "flex");
+    }, 1000);
+    }
 
 var scrollBottom = $(window).scrollTop() + $(window).height();
 $(".about-nav").click(function (e) {   
@@ -61,19 +71,38 @@ function isScrolledIntoView(elem) {
 
 $(window).scroll(function () {
     if (isScrolledIntoView($('#about-me'))) {
-        $('.navbar').css("display", "flex");
         $('#nav-about').css("border-bottom", "2px solid #4aaaa5");
         $('#nav-portfolio').css("border-bottom", "none");
+        $('#nav-home').css("border-bottom", "none");
         $('#nav-contact').css("border-bottom", "none");
     } else if (isScrolledIntoView($('#portfolio'))) {
         $('#nav-about').css("border-bottom", "none");
         $('#nav-contact').css("border-bottom", "none");
+        $('#nav-home').css("border-bottom", "none");
         $('#nav-portfolio').css("border-bottom", "2px solid #4aaaa5");
     } else if (isScrolledIntoView($('#contact'))) {
         $('#nav-about').css("border-bottom", "none");
         $('#nav-portfolio').css("border-bottom", "none");
+        $('#nav-home').css("border-bottom", "none");
         $('#nav-contact').css("border-bottom", "2px solid #4aaaa5");
-    } else if (isScrolledIntoView($('.invisible'))) {
-        $('.navbar').css("display", "none");
+    } else if (isScrolledIntoView($('.main-container'))) {
+        $('#nav-about').css("border-bottom", "none");
+        $('#nav-portfolio').css("border-bottom", "none");
+        $('#nav-contact').css("border-bottom", "none");
+        $('#nav-home').css("border-bottom", "2px solid #4aaaa5");
     }
+});
+
+$(function(){
+    $(window).scroll(function() {
+        var scroll = $(window).scrollTop(); // how many pixels you've scrolled
+        var ht = $('#about-me').height(); // height of div1 in pixels
+        // if you've scrolled further than the top of div1 plus it's height
+        // change the color. either by adding a class or setting a css property
+        if(scroll > ht){
+            $('.navbar').css("dispaly", "flex");
+        }
+    });
+});
+
 });
