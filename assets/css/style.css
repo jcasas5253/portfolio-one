@@ -88,6 +88,7 @@ h1 {
 .btn-outline-dark:hover {
     background-color: #202020 !important;
     color: #fff !important;
+    border-color: #4aaaa5 !important;
 }
 
     #about-me {
@@ -222,7 +223,7 @@ border-top: 1px solid #4aaaa5;
     }
 
     h1 {
-        font-size: 1.5em;
+        font-size: 1.5em !important;
     }
     .pp1 {
         padding-left: 0;
@@ -249,6 +250,12 @@ border-top: 1px solid #4aaaa5;
     #port-card {
         padding-right: 0;
         padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 1em !important;
     }
 }
 
