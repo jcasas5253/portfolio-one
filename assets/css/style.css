@@ -215,6 +215,9 @@ border-top: 1px solid #4aaaa5;
     .pp2 {
         margin-right: 0;
     }
+    .main-container {
+        padding-top: 250px;
+    }
 }
 
 @media screen and (max-width: 590px) {
