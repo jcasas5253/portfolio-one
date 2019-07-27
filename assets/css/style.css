@@ -194,6 +194,14 @@ h1 {
     color: #4aaaa5 !important;
 }
 
+a {
+    text-decoration: none !important;
+}
+
+.linky:hover {
+    color: #4aaaa5 !important;
+}
+
 @media screen and (max-width: 991px) {
     .nav-link {
 border-top: 1px solid #4aaaa5;
