@@ -57,8 +57,7 @@
 
     <div class="container-fluid" id="about-me">
         <div class="container-fluid" style="text-align:center;">
-            <h1 class="about" style="color:black;margin-bottom:0px;">ABOUT ME</h1>
-            <div>————————————</div>
+            <h1 class="about" style="color:black;margin-bottom:15px;text-decoration:underline;">ABOUT ME</h1>
             <div class="row" style="text-align:center;">
                 <div class="col-sm-12 col-md-12 col-lg-12">
                     <div id="songpro" class="inlineblo"></div>
@@ -112,9 +111,22 @@
 
     <div class="container-fluid" id="portfolio" style="padding-bottom:140px;">
         <div class="container-fluid" style="text-align:center;">
-            <h1 class="about" style="color:black;margin-bottom:0px;">PORTFOLIO</h1>
-            <div>—————————————</div>
-            <div class="row" style="margin-top:50px;">
+            <h1 class="about" style="color:black;margin-bottom:0px;text-decoration:underline;">PORTFOLIO</h1>
+
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item" id="previous">
+                        <a class="page-link" id="prev-btn">Previous</a>
+                    </li>
+                    <li class="page-item" id="page1"><a class="page-link first">1</a></li>
+                    <li class="page-item" id="page2"><a class="page-link second">2</a></li>
+                    <li class="page-item" id="next">
+                        <a class="page-link" id="next-btn">Next</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="row page1" style="margin-top:50px;">
                 <div style="display:flex;justify-content:center;" class="col-sm-12 col-md-12 col-lg-4" id="port-card">
                     <div class="card" style="width: 18rem;">
                         <img src="assets/images/Screenshot (47).png" class="card-img-top" alt="rentera">
@@ -155,13 +167,26 @@
                     </div>
                 </div>
             </div>
+            <div class="row page2" style="margin-top:50px; display:none;">
+                <div style="display:flex;justify-content:center;" class="col-sm-12 col-md-12 col-lg-12" id="port-card">
+                    <div class="card" style="width: 18rem;">
+                        <img src="assets/images/crystal.png" class="card-img-top" alt="Crystal Collecter">
+                        <div class="card-body">
+                            <h5 style="color:#fff;font-weight:bold;" class="card-title">Crystal Collector</h5>
+                            <p style="color:#fff;" class="card-text">
+                                You will be given a random number at the start of the game. There are four crystals. By clicking on a crystal, you will add a specific amount of points to your total score. You win the game by matching your total score to the random number generated. You lose the game if your total score goes above the random number.
+                            </p>
+                            <a href="https://jcasas5253.github.io/unit-4-game/" target="_blank" class="btn btn-outline-dark btn-lg card-btn">View Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="container-fluid" id="contact">
         <div class="container-fluid" style="text-align:center;">
-            <h1 class="contact" style="margin-bottom:0px;">CONTACT</h1>
-            <div style="color:black;margin-bottom:15px;">——————————</div>
+            <h1 class="contact" style="margin-bottom:15px;;text-decoration:underline;">CONTACT</h1>
             <div class="contact-me">
                 <a href="mailto: jacob.casas2013@gmail.com"> <i style="color:black;margin-bottom:0px;margin-top:1rem;cursor:pointer" class="far fa-envelope fa-3x"></i></a>
                 <a href="mailto: jacob.casas2013@gmail.com"><p class="linky" style="color:black;">jacob.casas2013@gmail.com</p></a>
