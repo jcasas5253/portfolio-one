@@ -91,6 +91,28 @@ h1 {
     border-color: #4aaaa5 !important;
 }
 
+.page-link {
+    color: #fff !important;
+    background-color: #4aaaa5;
+    cursor: pointer;
+}
+
+.first {
+    background-color: black;
+}
+
+.first:hover, .second:hover {
+    background-color: black !important; 
+}
+
+#prev-btn:hover, #next-btn:hover {
+    background-color: black !important;
+}
+
+.pagination {
+    margin-top: 50px !important;
+}
+
     #about-me {
         min-height: 100vh;
         padding-left: 0;
@@ -213,6 +235,9 @@ a {
     border-bottom: 1px solid #4aaaa5;
     }    
     .card-btn {
+        margin-top: 0 !important;
+    }
+    .crystals {
         margin-top: 0 !important;
     }
 }
