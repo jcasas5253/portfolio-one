@@ -93,16 +93,31 @@ $(window).scroll(function () {
     }
 });
 
-$(function(){
-    $(window).scroll(function() {
-        var scroll = $(window).scrollTop(); // how many pixels you've scrolled
-        var ht = $('#about-me').height(); // height of div1 in pixels
-        // if you've scrolled further than the top of div1 plus it's height
-        // change the color. either by adding a class or setting a css property
-        if(scroll > ht){
-            $('.navbar').css("dispaly", "flex");
-        }
-    });
-});
+    $('#page2').click(function () {
+        $('.page1').css("display", "none");
+        $('.page2').css("display", "flex");
+        $('.first').css("background-color", "#4aaaa5");
+        $(".second").css("background-color", "black");
+    })
 
+    $('#next').click(function () {
+        $('.page1').css("display", "none");
+        $('.page2').css("display", "flex");
+        $('.first').css("background-color", "#4aaaa5");
+        $(".second").css("background-color", "black");
+    })
+
+    $('#page1').click(function () {
+        $('.page1').css("display", "flex");
+        $('.page2').css("display", "none");
+        $('.second').css("background-color", "#4aaaa5");
+        $(".first").css("background-color", "black");
+    })
+
+    $('#previous').click(function () {
+        $('.page1').css("display", "flex");
+        $('.page2').css("display", "none");
+        $('.second').css("background-color", "#4aaaa5");
+        $(".first").css("background-color", "black");
+    })
 });
