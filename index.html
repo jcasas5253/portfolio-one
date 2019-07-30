@@ -9,15 +9,17 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+        integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <title>Portfolio</title>
 </head>
 
 <body>
     <div class="main-container">
+            <div class="invisible" style="position:relative;top:0;"></div>
         <video playsinline autoplay muted loop id="myVideo">
             <source src="assets/video/Blue_Light_Streaks_3Videvo.mov" type="video/mp4" />
         </video>
@@ -26,27 +28,28 @@
         <p></p>
         <h1 class="title">I'm a full-stack software engineer.</h1>
         <p></p>
-        <button type="button" class="btn btn-outline-dark btn-lg" id="animate-btn" onlcick="test();navbar();">View My Portfolio</button>
-        <div class="invisible"></div>
+        <button type="button" class="btn btn-outline-dark btn-lg" id="animate-btn" onlcick="test();navbar();">About
+            Me</button>        
     </div>
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="nav1">
         <a class="navbar-brand" href="#"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a style="border-top:none;" class="nav-link home-nav" id="nav-home" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a style="border-top:none;" class="nav-link home-nav" id="nav-home" href="#">Home <span
+                            class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link about-nav" id="nav-about" href="#">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link portfolio-nav" id="nav-portfolio" href="#">Portfolio</a>
+                    <a class="nav-link portfolio-nav" id="nav-portfolio" href="#">Projects</a>
                 </li>
                 <li class="nav-item">
                     <a style="border-bottom:none;" class="nav-link contact-nav" id="nav-contact" href="#">Contact</a>
@@ -57,6 +60,7 @@
 
     <div class="container-fluid" id="about-me">
         <div class="container-fluid" style="text-align:center;">
+            <div class="invisible2"></div>
             <h1 class="about" style="color:black;margin-bottom:15px;text-decoration:underline;">ABOUT ME</h1>
             <div class="row" style="text-align:center;">
                 <div class="col-sm-12 col-md-12 col-lg-12">
@@ -69,33 +73,39 @@
             <div style="text-align:center;" class="col-sm-6 col-md-6 col-lg-3 icons">
                 <i class="fas fa-mobile-alt fa-5x"></i>
                 <h2 style="color:#616161;font-weight:bold;">Responsive</h2>
-                <p class="pp1" style="padding-left:20px;color:#616161">My programs / sites are always built with a mobile first mindset. Will work on any device.</p>
+                <p class="pp1" style="padding-left:20px;color:#616161">My programs / sites are always built with a
+                    mobile first mindset. Will work on any device.</p>
             </div>
             <div style="text-align:center;" class="col-sm-6 col-md-6 col-lg-3 icons">
                 <i class="fas fa-tools fa-5x"></i>
                 <h2 style="color:#616161;font-weight:bold;">Full Stack</h2>
-                <p style="color:#616161;">Able to build a Web presence from the ground up. Front and back end development.</p>
+                <p style="color:#616161;">Able to build a Web presence from the ground up. Front and back end
+                    development.</p>
             </div>
             <div style="text-align:center;" class="col-sm-6 col-md-6 col-lg-3 icons">
                 <i class="fas fa-bug fa-5x"></i>
                 <h2 style="color:#616161;font-weight:bold;">Problem Solver</h2>
-                <p style="color:#616161;">Strong problem solving and debugging skills. Able to identify the problem and come up with the best solution.</p>
+                <p style="color:#616161;">Strong problem solving and debugging skills. Able to identify the problem and
+                    come up with the best solution.</p>
             </div>
             <div style="text-align:center;" class="col-sm-6 col-md-6 col-lg-3 icons">
                 <i class="far fa-heart fa-5x"></i>
                 <h2 style="color:#616161;font-weight:bold;">Passion</h2>
-                <p class="pp2" style="color:#616161;margin-right:20px;">I have a passion for building programs / sites. It is my job, hobby, and what I love to do.</p>
+                <p class="pp2" style="color:#616161;margin-right:20px;">I have a passion for building programs / sites.
+                    It is my job, hobby, and what I love to do.</p>
             </div>
         </div>
 
         <div class="row">
-            <div style="text-align:center;margin-top: 100px;border-right-style:solid;border-right-width:thin;border-color:black;" class="col-sm-12 col-md-6 col-lg-6">
+            <div style="text-align:center;margin-top: 100px;border-right-style:solid;border-right-width:thin;border-color:black;"
+                class="col-sm-12 col-md-6 col-lg-6">
                 <h2 style="color:#616161;font-weight:bold;">Overview</h2>
                 <p style="color:#616161;">
                     Full stack software engineer able to build a Web presence from the ground up,
                 </p>
                 <p style="color:#616161;">from concept, navigation, layout and programming to UX and SEO. Skilled at</p>
-                <p style="color:#616161;"> writing well-designed, testable and efficient code using current best practices.</p>
+                <p style="color:#616161;"> writing well-designed, testable and efficient code using current best
+                    practices.</p>
             </div>
             <div style="text-align:center;margin-top: 100px;" class="col-sm-12 col-md-6 col-lg-6">
                 <h2 style="color:#616161;font-weight:bold;">Technical Skills</h2>
@@ -103,7 +113,8 @@
                     React.js, HTML5, CSS3, JavaScript, jQuery, Bootstrap, SEO, MySQL, MongoDB,
                     Node.js,
                 </p>
-                <p style="color:#616161;">Express.js, APIs, JSON, AJAX, Real Time Cloud Database via firebase,Heroku, Git, GitHub,</p>
+                <p style="color:#616161;">Express.js, APIs, JSON, AJAX, Real Time Cloud Database via firebase,Heroku,
+                    Git, GitHub,</p>
                 <p style="color:#616161;">GitLab, ORM (Sequelize), MVC, XML, XSLT and User Authentication.</p>
             </div>
         </div>
@@ -111,7 +122,8 @@
 
     <div class="container-fluid" id="portfolio" style="padding-bottom:140px;">
         <div class="container-fluid" style="text-align:center;">
-            <h1 class="about" style="color:black;margin-bottom:0px;text-decoration:underline;">PORTFOLIO</h1>
+                <div class="invisible3"></div>
+            <h1 class="about" style="color:black;margin-bottom:0px;text-decoration:underline;">PROJECTS</h1>
 
             <nav aria-label="Page navigation example">
                 <ul class="pagination justify-content-center">
@@ -133,10 +145,13 @@
                         <div class="card-body">
                             <h5 style="color:#fff;font-weight:bold;" class="card-title">Rentera</h5>
                             <p style="color:#fff;" class="card-text">
-                                Property management site / program. Pay your rent, submit a service ticket, manage your properties, or view your leases as a tenant.
-                                Create a bill, view service tickets, view your properties, view all tenants leases as a manager.
+                                Property management site / program. Pay your rent, submit a service ticket, manage your
+                                properties, or view your leases as a tenant.
+                                Create a bill, view service tickets, view your properties, view all tenants leases as a
+                                manager.
                             </p>
-                            <a href="https://protected-sierra-58552.herokuapp.com/welcome" target="_blank" class="btn btn-outline-dark btn-lg card-btn" style="margin-top:48px;">View Now</a>
+                            <a href="https://protected-sierra-58552.herokuapp.com/welcome" target="_blank"
+                                class="btn btn-outline-dark btn-lg card-btn" style="margin-top:48px;">View Now</a>
                         </div>
                     </div>
                 </div>
@@ -146,23 +161,31 @@
                         <div class="card-body">
                             <h5 style="color:#fff;font-weight:bold;" class="card-title">Full Circle</h5>
                             <p style="color:#fff;" class="card-text">
-                                Go to any recycling center to recycle your bottles and cans. You will receive a receipt with a voucher.
-                                Enter your voucher number and the total dollar amount you are owed. on the "Transactions" page. Once the site verifies your info, a payment will be sent via Paypal.
+                                Go to any recycling center to recycle your bottles and cans. You will receive a receipt
+                                with a voucher.
+                                Enter your voucher number and the total dollar amount you are owed. on the
+                                "Transactions" page. Once the site verifies your info, a payment will be sent via
+                                Paypal.
                             </p>
-                            <a href="https://aqueous-thicket-90325.herokuapp.com/" target="_blank" class="btn btn-outline-dark btn-lg card-btn">View Now</a>
+                            <a href="https://aqueous-thicket-90325.herokuapp.com/" target="_blank"
+                                class="btn btn-outline-dark btn-lg card-btn">View Now</a>
                         </div>
                     </div>
                 </div>
                 <div style="display:flex;justify-content:center;" class="col-sm-12 col-md-12 col-lg-4" id="port-card">
                     <div class="card" style="width: 18rem;">
-                        <img src="assets/images/Screenshot (49).png" class="card-img-top" alt="Hiking Playlist Generator">
+                        <img src="assets/images/Screenshot (49).png" class="card-img-top"
+                            alt="Hiking Playlist Generator">
                         <div class="card-body">
                             <h5 style="color:#fff;font-weight:bold;" class="card-title">Hiking Playlist Generator</h5>
                             <p style="color:#fff;" class="card-text">
-                                Simply enter your hiking destination to find local hikes in the area with info about location, difficulty, rating.etc.
-                                The generate playlist button will create a playlist for the user based on the difficulty of the hike.
+                                Simply enter your hiking destination to find local hikes in the area with info about
+                                location, difficulty, rating.etc.
+                                The generate playlist button will create a playlist for the user based on the difficulty
+                                of the hike.
                             </p>
-                            <a href="https://aka-joe.github.io/Project1/" target="_blank" class="btn btn-outline-dark btn-lg card-btn" style="margin-top:48px;">View Now</a>
+                            <a href="https://aka-joe.github.io/Project1/" target="_blank"
+                                class="btn btn-outline-dark btn-lg card-btn" style="margin-top:48px;">View Now</a>
                         </div>
                     </div>
                 </div>
@@ -174,26 +197,43 @@
                         <div class="card-body">
                             <h5 style="color:#fff;font-weight:bold;" class="card-title">Crystal Collector</h5>
                             <p style="color:#fff;" class="card-text">
-                                You will be given a random number at the start of the game. There are four crystals. By clicking on a crystal, you will add a specific amount of points to your total score. You win the game by matching your total score to the random number generated. You lose the game if your total score goes above the random number.
+                                You will be given a random number at the start of the game. There are four crystals. By
+                                clicking on a crystal, you will add a specific amount of points to your total score. You
+                                win the game by matching your total score to the random number generated. You lose the
+                                game if your total score goes above the random number.
                             </p>
-                            <a href="https://jcasas5253.github.io/unit-4-game/" target="_blank" class="btn btn-outline-dark btn-lg card-btn">View Now</a>
+                            <a href="https://jcasas5253.github.io/unit-4-game/" target="_blank"
+                                class="btn btn-outline-dark btn-lg card-btn">View Now</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
+    </div>
 
     <div class="container-fluid" id="contact">
         <div class="container-fluid" style="text-align:center;">
+                <div class="invisible5"></div>
             <h1 class="contact" style="margin-bottom:15px;;text-decoration:underline;">CONTACT</h1>
             <div class="contact-me">
-                <a href="mailto: jacob.casas2013@gmail.com"> <i style="color:black;margin-bottom:0px;margin-top:1rem;cursor:pointer" class="far fa-envelope fa-3x"></i></a>
-                <a href="mailto: jacob.casas2013@gmail.com"><p class="linky" style="color:black;">jacob.casas2013@gmail.com</p></a>
-                <a href="https://www.linkedin.com/in/jacob-casas-49a499123/" target="_blank"><i style="color:black;cursor:pointer" class="fab fa-linkedin-in fa-3x"></i></a>
-                <a href="https://www.linkedin.com/in/jacob-casas-49a499123/" target="_blank"><p class="linky" style="color:black;">https://www.linkedin.com/in/jacob-casas/</p></a>
-                <a href="https://github.com/jcasas5253" target="_blank"><i style="color:black;cursor:pointer" class="fab fa-github fa-3x"></i></a>
-                <a href="https://github.com/jcasas5253" target="_blank"><p class="linky" style="color:black;">https://github.com/jcasas5253</p></a>
+                <a href="mailto: jacob.casas2013@gmail.com"> <i
+                        style="color:black;margin-bottom:0px;margin-top:1rem;cursor:pointer"
+                        class="far fa-envelope fa-3x"></i></a>
+                <a href="mailto: jacob.casas2013@gmail.com">
+                    <p class="linky" style="color:black;">jacob.casas2013@gmail.com</p>
+                </a>
+                <a href="https://www.linkedin.com/in/jacob-casas-49a499123/" target="_blank"><i
+                        style="color:black;cursor:pointer" class="fab fa-linkedin-in fa-3x"></i></a>
+                <a href="https://www.linkedin.com/in/jacob-casas-49a499123/" target="_blank">
+                    <p class="linky" style="color:black;">https://www.linkedin.com/in/jacob-casas/</p>
+                </a>
+                <a href="https://github.com/jcasas5253" target="_blank"><i style="color:black;cursor:pointer"
+                        class="fab fa-github fa-3x"></i></a>
+                <a href="https://github.com/jcasas5253" target="_blank">
+                    <p class="linky" style="color:black;">https://github.com/jcasas5253</p>
+                </a>
             </div>
             <label class="up-btn" id="btn-up">
                 <i style="color:#fff;margin-top:15px;" class="fas fa-arrow-up fa-3x"></i>
@@ -214,11 +254,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/javascript/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-            crossorigin="anonymous"></script>
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-            crossorigin="anonymous"></script>
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
