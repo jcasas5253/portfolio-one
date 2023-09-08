@@ -76,6 +76,8 @@ h1 {
 
 .btn-outline-dark:hover {
     transform: scale(1.05); 
+    border-color: aliceblue;
+    box-shadow: 0 0 10px aliceblue;
 }
 
 .page-link {
