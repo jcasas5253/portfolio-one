@@ -51,9 +51,9 @@ p {
 .contact-me {
     border-style: solid;
     border-width: thick;
-    border-color: black;
+    border-color: #616161;
     border-radius: 10px;
-    width:50%;
+    width: 50%;
     margin-left: 25%;
 }
 
