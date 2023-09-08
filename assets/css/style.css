@@ -61,6 +61,10 @@ h1 {
     font-size: 2.5em;
 }
 
+.proj-title:hover {
+    transform: scale(1.05);
+}
+
 .name {
     color: #4aaaa5;
     font-weight: bolder;
@@ -173,6 +177,10 @@ h1 {
 .fas, .far {
     margin-bottom: 15px;
     color: #616161;
+}
+
+.fa-envelope:hover, fa-linkedin:hover, fa-github:hover {
+    transform: scale(1.05);
 }
 
 .up-btn {
