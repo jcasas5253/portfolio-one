@@ -106,7 +106,7 @@ h1 {
         min-height: 100vh;
         padding-left: 50px;
         padding-right: 50px;
-        padding-bottom: 200px;
+        padding-bottom: 100px;
         padding-top: 140px;
     }
 
@@ -305,6 +305,9 @@ a:hover {
     }
     .proj-img {
         width: 100% !important;
+    }
+    #about-me {
+        padding-bottom: 0 !important;
     }
 }
 
