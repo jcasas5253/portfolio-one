@@ -284,9 +284,6 @@ a:hover {
         margin-left: 0;
         width: 100%;
     }
-    h1 {
-        font-size: 1.5em !important;
-    }
     .pp1 {
         padding-left: 0;
     }
@@ -326,12 +323,6 @@ a:hover {
         padding-bottom: 0 !important;
     }
 }
-
-    @media screen and (max-width: 400px) {
-        h1 {
-            font-size: 1em !important;
-        }
-    }
 
     @media screen and (max-width: 360px) {
         .title {
