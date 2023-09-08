@@ -7,6 +7,10 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    color: #616161 !important;
+}
+
 .main-container {
     min-height: 100vh;
     text-align: center;
@@ -179,12 +183,20 @@ h1 {
     color: #616161;
 }
 
-.fa-envelope:hover, fa-linkedin:hover, fa-github:hover {
+.fa-envelope:hover {
+    transform: scale(1.05);
+}
+
+.fa-linkedin-in:hover {
+    transform: scale(1.05);
+}
+
+.fa-github:hover {
     transform: scale(1.05);
 }
 
 .up-btn {
-    background-color: black;
+    background-color: #4aaaa5;
     width: 60px;
     border-radius: 100px;
     margin-bottom: 3.5rem !important;
@@ -192,7 +204,7 @@ h1 {
 }
 
 .up-btn:hover {
-    background-color: #4aaaa5;
+    transform: scale(1.05);
     cursor: pointer;
 }
 
@@ -245,7 +257,7 @@ a:hover {
 }
 
 .linky:hover {
-    color: #4aaaa5 !important;
+    transform: scale(1.05);
 }
 
 @media screen and (max-width: 991px) {
