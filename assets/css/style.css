@@ -69,15 +69,13 @@ h1 {
 .btn-outline-dark {
     background-color: #4aaaa5 !important;
     color: #fff !important;
-    border-color: black !important;
+    border-color: aliceblue;
+    box-shadow: 0 0 10px aliceblue;
     outline: none !important;
-    box-shadow: none !important;
 }
 
 .btn-outline-dark:hover {
-    background-color: #202020 !important;
-    color: #fff !important;
-    border-color: #4aaaa5 !important;
+    transform: scale(1.05); 
 }
 
 .page-link {
@@ -117,9 +115,8 @@ h1 {
 
 .navbar {
     width: 100%;
-    border-bottom-style: solid;
-    border-bottom-width: thick;
-    border-bottom-color: #4aaaa5;
+    border-color: aliceblue;
+    box-shadow: 0 0 20px aliceblue;
     z-index:999;
     margin-bottom: 140px;
     position: fixed;
@@ -173,10 +170,7 @@ h1 {
 
 .fas, .far {
     margin-bottom: 15px;
-}
-
-.fas:hover, .far:hover {
-    transform: scale(1.05); 
+    color: #616161;
 }
 
 .up-btn {
