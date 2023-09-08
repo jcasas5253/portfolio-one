@@ -154,14 +154,14 @@ h1 {
 }
 
 #songpro {
-        width: 180px;
-            height: 180px;
-            border-radius: 50%;
-            border: 1px solid #eaeaea;
-            position: relative;
-            background: url("../../assets/images/songpro.jpg") no-repeat 0 0;
-            background-size: 180px 180px;
-            box-shadow: inset 0px 0px 10px 2px #5f5f5f
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 1px solid #eaeaea;
+    position: relative;
+    background: url("../../assets/images/songpro.jpg") no-repeat 0 0;
+    background-size: 180px 180px;
+    box-shadow: 4px 2px 10px #666;
 }
 
 .inlineblo {
@@ -202,6 +202,7 @@ h1 {
 
 .card {
     border: solid thin black;
+    box-shadow: 4px 2px 10px #666;
 }
 
 .card-img-top {
