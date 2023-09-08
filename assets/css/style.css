@@ -283,6 +283,7 @@ a:hover {
     .contact-me {
         margin-left: 0;
         width: 100%;
+        border: none;
     }
     .pp1 {
         padding-left: 0;
