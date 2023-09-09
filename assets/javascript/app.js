@@ -123,4 +123,12 @@ $(document).ready(function () {
         $('.navbar-collapse').collapse('hide');
     });
 
+    function myFunction() {
+        if (video.paused) {
+            video.play();
+        } else {
+            video.pause();
+        }
+    }
+
 });
