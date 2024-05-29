@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('#nav-home').css("border-bottom", "2px solid #646DFF");
+    $('#nav-home').css("border-bottom", "2px solid #4aaaa5");
 
     $("#animate-btn").click(function (e) {
         e.preventDefault();
@@ -97,22 +97,22 @@ $(document).ready(function () {
 
         // This is where we use the function to detect if ".box2" is scrolled into view, and when it is add the class ".animated" to the <p> child element
         if (elementScrolled('.invisible2')) {
-            $('#nav-about').css("border-bottom", "2px solid #646DFF");
+            $('#nav-about').css("border-bottom", "2px solid #4aaaa5");
             $('#nav-home').css("border-bottom", "none");
             $('#nav-portfolio').css("border-bottom", "none");
             $('#nav-contact').css("border-bottom", "none");
         } else if (elementScrolled('.invisible')) {
-            $('#nav-home').css("border-bottom", "2px solid #646DFF");
+            $('#nav-home').css("border-bottom", "2px solid #4aaaa5");
             $('#nav-about').css("border-bottom", "none");
             $('#nav-portfolio').css("border-bottom", "none");
             $('#nav-contact').css("border-bottom", "none");
         } else if (elementScrolled('.invisible3')) {
-            $('#nav-portfolio').css("border-bottom", "2px solid #646DFF");
+            $('#nav-portfolio').css("border-bottom", "2px solid #4aaaa5");
             $('#nav-about').css("border-bottom", "none");
             $('#nav-home').css("border-bottom", "none");
             $('#nav-contact').css("border-bottom", "none");
         } else if (elementScrolled('.invisible5')) {
-            $('#nav-contact').css("border-bottom", "2px solid #646DFF");
+            $('#nav-contact').css("border-bottom", "2px solid #4aaaa5");
             $('#nav-about').css("border-bottom", "none");
             $('#nav-home').css("border-bottom", "none");
             $('#nav-portfolio').css("border-bottom", "none");

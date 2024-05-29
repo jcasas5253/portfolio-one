@@ -145,7 +145,7 @@ h1 {
 }
 
 .nav-link:hover {
-    color: #646DFF !important;
+    color: #4aaaa5 !important;
 }
 
 #songpro {
@@ -187,6 +187,10 @@ h1 {
 }
 
 .fa-linkedin-in:hover {
+    transform: scale(1.05);
+}
+
+.fa-mobile:hover {
     transform: scale(1.05);
 }
 
@@ -242,7 +246,7 @@ h1 {
 }
 
 .fa-linkedin-in:hover, .fa-envelope:hover,
-.fa-github:hover {
+.fa-github:hover, .fa-mobile:hover {
     color: #4aaaa5 !important;
 }
 
