@@ -145,7 +145,7 @@ h1 {
 }
 
 .nav-link:hover {
-    color: #4aaaa5 !important;
+    color: #646DFF !important;
 }
 
 #songpro {
@@ -260,10 +260,10 @@ a:hover {
 }
 
 @media screen and (max-width: 991px) {
-    .nav-link {
+    /*.nav-link {
     border-top: 1px solid #4aaaa5;
     border-bottom: 1px solid #4aaaa5;
-    }    
+    }    */
     .card-btn {
         margin-top: 0 !important;
     }
